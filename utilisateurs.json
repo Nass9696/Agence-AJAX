@@ -1,0 +1,25 @@
+[
+  {
+    "nom": "Gacem",
+    "prenom": "Nassim",
+    "age": 22
+  },
+
+  {
+    "nom": "Dupont",
+    "prenom": "Vincent",
+    "age": 32
+  },
+
+  {
+    "nom": "Dupuit",
+    "prenom": "Bernard",
+    "age": 33
+  },
+
+  {
+    "nom": "Durons",
+    "prenom": "Christophe",
+    "age": 42
+  }
+]
