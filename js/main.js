@@ -9,14 +9,17 @@ var xhttp = new XMLHttpRequest();
           for (var i = 0; i < utilisateurs.length; i++) {
             var tr = document.createElement('tr');
             tbody.appendChild(tr);
+            //Je crée le nombre de balise td qui correspond au nombres d'attributs
+            var tdid = document.createElement('td');
             var tdnom = document.createElement('td');
-            var tdprenom = document.createElement('td');
             var tdage = document.createElement('td');
+            //Je fait hérité mes balises td de <tr>
+            tr.appendChild(tdid);
             tr.appendChild(tdnom);
-            tr.appendChild(tdprenom);
             tr.appendChild(tdage);
+            //J'associe chaque attributs à son td approprié
+            tdid.textContent = utilisateurs[i].id
             tdnom.textContent = utilisateurs[i].nom;
-            tdprenom.textContent = utilisateurs[i].prenom;
             tdage.textContent = utilisateurs[i].age;
             console.log(utilisateurs);
           }

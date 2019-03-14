@@ -1,25 +1,25 @@
 [
   {
-    "nom": "Gacem",
-    "prenom": "Nassim",
+    "id": 1,
+    "nom": "Gacem Nassim",
     "age": 22
   },
 
   {
-    "nom": "Dupont",
-    "prenom": "Vincent",
+    "id": 2,
+    "nom": "Dupont Vincent",
     "age": 32
   },
 
   {
-    "nom": "Dupuit",
-    "prenom": "Bernard",
+    "id": 3,
+    "nom": "Dupuit Bernard",
     "age": 33
   },
 
   {
-    "nom": "Durons",
-    "prenom": "Christophe",
+    "id": 4,
+    "nom": "Durons Christophe",
     "age": 42
   }
 ]
